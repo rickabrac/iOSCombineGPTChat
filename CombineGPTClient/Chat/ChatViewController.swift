@@ -60,10 +60,6 @@ class ChatViewController: UIViewController, UIGestureRecognizerDelegate {
 		prompt.rightViewMode = .never
 	}
 	
-	@objc func wtf() {
-		print("wtf()")
-	}
-	
 	func configure() {
 		
 		if chat == nil {
